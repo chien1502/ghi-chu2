@@ -18,7 +18,11 @@ class NewPostViewController: UIViewController {
     @IBAction func cancelButtonTapped(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
-
+    @IBAction func newPostButtonTapped(_ sender: UIButton) {
+        let composeVC = ComposeViewController(nibName: "ComposeViewController", bundle: nil)
+        composeVC.modalPresentationStyle = .fullScreen
+        self.present(composeVC, animated: true, completion: nil)
+    }
     
 
 }
