@@ -56,14 +56,14 @@
                         <segment title="Gần đây"/>
                     </segments>
                 </segmentedControl>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FE3A19FA-DC16-48E7-B449-4DEBC69E23C3" translatesAutoresizingMaskIntoConstraints="NO" id="E94-k6-7KM">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image2" translatesAutoresizingMaskIntoConstraints="NO" id="E94-k6-7KM">
                     <rect key="frame" x="16" y="191" width="170" height="128"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="128" id="KU5-CN-LFU"/>
                         <constraint firstAttribute="width" constant="170" id="WsO-BF-4Oi"/>
                     </constraints>
                 </imageView>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="E0B2351F-B232-4698-9E90-9524FC711864" translatesAutoresizingMaskIntoConstraints="NO" id="T1q-qw-lfU">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image3" translatesAutoresizingMaskIntoConstraints="NO" id="T1q-qw-lfU">
                     <rect key="frame" x="189" y="191" width="170" height="128"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="128" id="aaE-Wa-uBn"/>
@@ -177,9 +177,9 @@
         </view>
     </objects>
     <resources>
-        <image name="E0B2351F-B232-4698-9E90-9524FC711864" width="600" height="659"/>
-        <image name="FE3A19FA-DC16-48E7-B449-4DEBC69E23C3" width="1536" height="2048"/>
         <image name="arrow.trianglehead.2.clockwise" catalog="system" width="111" height="128"/>
+        <image name="image2" width="1536" height="2048"/>
+        <image name="image3" width="600" height="659"/>
         <image name="square.and.pencil" catalog="system" width="128" height="121"/>
     </resources>
 </document>
