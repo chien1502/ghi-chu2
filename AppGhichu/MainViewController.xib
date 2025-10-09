@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="AppGhichu" customModuleProvider="target">
             <connections>
+                <outlet property="savedButton" destination="M21-8U-Lvg" id="Qsm-2V-hzG"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -62,13 +63,19 @@ Hãy chạm vào nút dấu cộng để bắt đầu.</string>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" image="logodep"/>
                     <connections>
-                        <action selector="addButtonTapped:" destination="-1" eventType="touchUpInside" id="yaW-68-ybl"/>
+                        <action selector="addButtonTapped:" destination="-1" eventType="touchUpInside" id="pxl-sS-ZH9"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S3E-tL-TVk">
                     <rect key="frame" x="344" y="46" width="49.666666666666686" height="34.333333333333343"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" image="ellipsis.circle" catalog="system"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M21-8U-Lvg">
+                    <rect key="frame" x="16" y="87" width="49" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.down.fill" catalog="system"/>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
@@ -93,6 +100,7 @@ Hãy chạm vào nút dấu cộng để bắt đầu.</string>
         <image name="image1" width="152" height="147"/>
         <image name="logodep" width="32" height="32"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="square.and.arrow.down.fill" catalog="system" width="121" height="128"/>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
